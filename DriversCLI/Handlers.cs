@@ -72,7 +72,6 @@ namespace DriversCLI
 
         public static async Task<int> HandleUpdateCommand(HttpClient httpClient, UpdateOptions options)
         {
-            Faker faker = new();
             Driver newDriver = new()
             {
                 Id = options.Id,

@@ -35,7 +35,5 @@ namespace BuildingLink_Driver.Data
             using SQLiteCommand command = new("INSERT OR IGNORE INTO drivers (firstName, lastName, email, phoneNumber) VALUES ('John', 'Doe', 'john.doe@example.com', '(123) 456-7890')", connection);
             command.ExecuteNonQuery();
         }
-
-
     }
 }
