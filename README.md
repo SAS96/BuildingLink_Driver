@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project utilizes SQLite with ADO.NET. It contains various methods with logging and documentation above each method for easy reference.
+This project utilizes SQLite with SQLite-specific data access. It contains various methods with logging and documentation above each method for easy reference.
 
 ## Getting Started
 
